@@ -1,5 +1,5 @@
 """
-Software FJ - Integral Management System
+Software - Integral Management System
 Package initialization.
 """
 
