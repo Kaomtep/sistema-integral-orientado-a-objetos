@@ -13,7 +13,7 @@ from app.utils.logger import log_event, log_exception
 
 class Client(Entity):
     """
-    Represents a customer of Software FJ.
+    Represents a customer of sistema-integral-orientado-a-objetos/
 
     All personal data is encapsulated behind properties that
     enforce format and presence rules.
