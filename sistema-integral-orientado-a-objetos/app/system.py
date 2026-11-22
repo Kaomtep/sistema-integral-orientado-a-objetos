@@ -20,7 +20,7 @@ class ManagementSystem:
         self.clients = ClientManager()
         self.services = ServiceManager()
         self.reservations = ReservationManager()
-        log_event("Software FJ Management System started.")
+        log_event("sistema-integral-orientado-a-objetos Management System started.")
 
     # ------------------------------------------------------------------
     # Clients
