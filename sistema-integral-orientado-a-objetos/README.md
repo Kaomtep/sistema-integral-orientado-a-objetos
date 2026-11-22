@@ -44,7 +44,7 @@ sistema-integral-orientado-a-objetos/
 ├── README.md
 ├── .gitignore
 ├── logs/                       # Se genera al ejecutar
-│   └── software_fj.log
+│   └── sistema-integral-orientado-a-objetos.log
 └── app/
     ├── __init__.py
     ├── exceptions.py           # Excepciones personalizadas
