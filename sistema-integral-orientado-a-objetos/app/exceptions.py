@@ -1,14 +1,14 @@
 """
-Custom exception hierarchy for Software FJ.
+Custom exception hierarchy for Software.
 
-All application-specific errors inherit from SoftwareFJError.
+All application-specific errors inherit from sistema-integral-orientado-a-objetosError.
 This allows catching any system error with a single except clause
 while still permitting fine-grained handling.
 """
 
 
 class SoftwareFJError(Exception):
-    """Base exception for the entire Software FJ system."""
+    """Base exception for the entire sistema-integral-orientado-a-objetos system."""
 
     def __init__(self, message: str, code: str = "SFJ-000") -> None:
         self.message = message
