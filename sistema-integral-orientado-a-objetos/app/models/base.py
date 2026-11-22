@@ -1,5 +1,5 @@
 """
-Abstract base entity for all domain objects in Software FJ.
+Abstract base entity for all domain objects in sistema-integral-orientado-a-objetos/
 """
 
 from __future__ import annotations
