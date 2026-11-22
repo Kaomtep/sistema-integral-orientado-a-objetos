@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ================================================================================
-  SOFTWARE FJ – Integral Management System
+  sistema-integral-orientado-a-objetos – Integral Management System
   Clients · Services · Reservations
 ================================================================================
   UNAD – Programming Course (213023) – Phase 4
@@ -65,7 +65,7 @@ def run_simulations() -> None:
     op(2, "Register client with INVALID email")
     try:
         system.register_client(
-            "Pedro López", "9876543210", "correo-invalido", "3109876543"
+            "Andres López", "9876543210", "correo-invalido", "3109876543"
         )
         print("  ✓ SUCCESS (unexpected)")
         stats["success"] += 1
