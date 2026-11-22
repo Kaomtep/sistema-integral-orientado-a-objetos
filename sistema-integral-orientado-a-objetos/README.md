@@ -30,7 +30,7 @@ Sistema orientado a objetos que gestiona **clientes**, **servicios** (salas, equ
 | Excepciones personalizadas | Jerarquía completa en `app/exceptions.py` |
 | try / except / else / finally | En `Reservation.confirm()` |
 | Encadenamiento de excepciones | `raise ... from e` |
-| Archivo de logs | `logs/software_fj.log` |
+| Archivo de logs | `logs.sistema-integral-orientado-a-objetos/.log` |
 | ≥ 10 operaciones | 13 operaciones en `main.py` |
 | Sistema estable | Ningún error detiene la ejecución |
 
