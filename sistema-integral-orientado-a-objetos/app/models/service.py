@@ -14,7 +14,7 @@ from app.utils.logger import log_event
 
 class Service(Entity):
     """
-    Abstract base for every service offered by Software FJ.
+    Abstract base for every service offered by sistema-integral-orientado-a-objetos/.
     Subclasses must implement `calculate_cost`.
     """
 
